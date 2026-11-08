@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+.venv311/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local IDE files
+.vscode/
+.idea/
+
+# Local logs
+logs/*.jsonl
+
+# Local model / vector DB scratch
+chroma/
+chroma_db/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example

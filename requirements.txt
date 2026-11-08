@@ -1,0 +1,27 @@
+# Core numerical / retrieval stack
+numpy==1.26.4
+scipy==1.13.1
+sentence-transformers==5.7.0
+chromadb==1.5.9
+chroma-hnswlib==0.7.6
+
+# Agent orchestration
+crewai==1.15.35
+langchain-core==1.7.6
+
+# API
+fastapi==0.162.2
+uvicorn==0.54.0
+httpx==0.28.1
+
+# AutoGen
+autogen-agentchat==0.7.5
+autogen-core==0.7.5
+
+# Compatibility pins required by AutoGen 0.7.5
+protobuf==5.29.6
+googleapis-common-protos==1.70.0
+
+# Validation / tests
+pydantic==2.12.5
+pytest>=8,<10
